@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="actividades_cuadernillo-ciencias_naturales" version="0.1.3">
+ <settings>
+  <title>Actividades Cuadernillo-Ciencias Naturales</title>
+  <revision description="created" date="10/5/26" />
+  <author name="DANIELLA MARTÍNEZ" />
+  <author name="MELISSA AYALA" />
+  <organization name="UNISON CABORCA" />
+  <description>
+   <p>FASE 4, SABERES Y PENSAMIENTO CIENTÍFICO &#xD;</p>
+   <p>&#xD;</p>
+  </description>
+  <descriptors area-codes="exp, div" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>FASE 4, SABERES Y PENSAMIENTO CIENTÍFICO &#xD;</p>
+    <p>&#xD;</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Portada" />
+  <item name="PARTES DEL SISTEMA LOCOMOTOR" />
+  <item name="RELACIONA IMAGEN CON IMAGEN" />
+  <item name="ROMPECABEZAS" />
+  <item name="CRUCIGRAMA" />
+  <item name="SOPA DE LETRAS" />
+  <item name="TEXTO 1" />
+  <item name="TEXTO 2" />
+  <item name="TEXTO 3" />
+  <item name="TEXTO 4" />
+  <item name="TEXTO 5" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="CRUCIGRAMA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Microsoft YaHei" size="17" bold="true" />
+      <color background="0xFFFF99" />
+     </style>
+     <p>Lee con atención cada pista y escribe la palabra correcta de los nombres de los órganos sexuales.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Microsoft YaHei" size="17" bold="true" />
+      <color background="0xFFFF99" />
+     </style>
+     <p>¡Lo Lograste!  :)</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF6666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true" />
+   </settings>
+   <textGrid rows="21" columns="25" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <color foreground="0x666666" background="0xF0F0F0" />
+    </style>
+    <text>
+     <row>********O**P*********</row>
+     <row>********V**E*********</row>
+     <row>*******VAGINA********</row>
+     <row>********R**E*********</row>
+     <row>********I************</row>
+     <row>******PROSTATA*******</row>
+     <row>********S*R**********</row>
+     <row>*****C****O**********</row>
+     <row>*****ENDROMETRIO*****</row>
+     <row>*****R****P**********</row>
+     <row>*****V**GLANDE*******</row>
+     <row>*****I****D***C******</row>
+     <row>***U*X***VEJIGA******</row>
+     <row>***R******F***N******</row>
+     <row>***E******A***A******</row>
+     <row>***TESTÍCULO**L******</row>
+     <row>***R******O***C******</row>
+     <row>***A******P***E******</row>
+     <row>**********I***R******</row>
+     <row>******ÚTERO***V******</row>
+     <row>**************I******</row>
+     <row>**************C******</row>
+     <row>**************A******</row>
+     <row>**************L******</row>
+     <row>*********************</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="23" item="1" />
+    <cell id="23" item="0" />
+    <cell id="22" item="1" />
+    <cell id="22" item="0" />
+    <cell id="21" item="1" />
+    <cell id="21" item="0" />
+    <cell id="20" item="1" />
+    <cell id="20" item="0" />
+    <cell id="19" item="2" />
+    <cell id="19" item="1" />
+    <cell id="13" item="3" />
+    <cell id="13" item="2" />
+    <cell id="11" item="3" />
+    <cell id="11" item="2" />
+    <cell id="19" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Parte del cuerpo donde puede desarrollarse un bebé durante el embarazo.</p>
+    </cell>
+    <cell id="19" item="0" />
+    <cell id="18" item="2" />
+    <cell id="18" item="1" />
+    <cell id="18" item="0" />
+    <cell id="17" item="3" />
+    <cell id="17" item="2" />
+    <cell id="17" item="0" />
+    <cell id="17" item="1" />
+    <cell id="16" item="3" />
+    <cell id="16" item="2" />
+    <cell id="16" item="0" />
+    <cell id="16" item="1" />
+    <cell id="15" item="2" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Parte del cuerpo que produce los espermatozides.</p>
+    </cell>
+    <cell id="14" item="3" />
+    <cell id="14" item="2" />
+    <cell id="14" item="0" />
+    <cell id="14" item="1" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="13" item="1" />
+    <cell id="12" item="2">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Órgano del cuerpo en forma de globo encargada de guardar la orina.</p>
+    </cell>
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="12" item="2" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="11" item="1" />
+    <cell id="10" item="1">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Parte del aparato reproductor masculino que produce parte del líquido que acompaña a los espermatozoides.</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="10" item="1" />
+    <cell id="9" item="2" />
+    <cell id="9" item="0" />
+    <cell id="9" item="1" />
+    <cell id="5" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Glándula del aparato del aparato reproductor masculino.</p>
+    </cell>
+    <cell id="7" item="2" />
+    <cell id="7" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="7" item="1" />
+    <cell id="8" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Capa de tejido que recubre el interior del útero.</p>
+    </cell>
+    <cell id="8" item="0" />
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="5" item="2" />
+    <cell id="5" item="3" />
+    <cell id="5" item="3" />
+    <cell id="0" item="2" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFF6666" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" item="2" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Conducto muscular que une al útero con el exterior.</p>
+    </cell>
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="17" item="0" />
+    <cell id="4" item="1" />
+    <cell id="20" item="0" />
+    <cell id="16" item="0" />
+    <cell id="11" item="6" />
+    <cell id="11" item="3" />
+    <cell id="11" item="2" />
+    <cell id="11" item="5" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0" />
+    <cell id="14" item="2" />
+    <cell id="14" item="0" />
+    <cell id="14" item="1">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Conducto que atraviesa el cuello uterino.</p>
+    </cell>
+    <cell id="11" item="4" />
+    <cell id="11" item="4" />
+    <cell id="11" item="1" />
+    <cell id="4" item="0" />
+    <cell id="4" item="0" />
+    <cell id="2" item="0" />
+    <cell id="0" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Parte inferior del útero que se conecta con la vagina.</p>
+    </cell>
+    <cell id="5" item="1" />
+    <cell id="6" item="3" />
+    <cell id="6" item="1" />
+    <cell id="6" item="2" />
+    <cell id="6" item="3" />
+    <cell id="6" item="0" />
+    <cell id="1" item="0" />
+    <cell id="13" item="4" />
+    <cell id="13" item="2" />
+    <cell id="13" item="1" />
+    <cell id="13" item="3" />
+    <cell id="13" item="0" />
+    <cell id="12" item="5" />
+    <cell id="12" item="3" />
+    <cell id="12" item="2" />
+    <cell id="12" item="4" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="11" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Órgano genital externo masculino.</p>
+    </cell>
+    <cell id="11" item="0" />
+    <cell id="10" item="2" />
+    <cell id="10" item="1">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Conductos musculares que conectan los ovarios con el útero.</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="7" item="4" />
+    <cell id="7" item="2" />
+    <cell id="7" item="3" />
+    <cell id="7" item="4" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="9" item="4" />
+    <cell id="9" item="3" />
+    <cell id="9" item="2" />
+    <cell id="9" item="5" />
+    <cell id="9" item="6" />
+    <cell id="9" item="4" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="8" item="3" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="3" />
+    <cell id="8" item="4" />
+    <cell id="8" item="0">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFF6666" inactive="0xFFFFFF" />
+     </style>
+     <p>Célula reproductora femenina.</p>
+    </cell>
+    <cell id="3" item="0">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Parte externa del aparato reproductor masculino.</p>
+    </cell>
+    <cell id="3" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="PARTES DEL SISTEMA LOCOMOTOR" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0x666666" />
+     </style>
+     <p>Relaciona el objeto con su nombre</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0x666666" border="0xFFFFFF" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCC6600">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF99" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell border="true" image="PELVIS.png">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Times New Roman" size="20" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="CRANEO.png">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="FEMUR.png">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="COSTILLAS.png">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xAF743A" inactive="0xAD723A" />
+     </style>
+     <p>Pelvis</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xAF743A" inactive="0xAD743A" />
+     </style>
+     <p>Cráneo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xAF743A" inactive="0xAD6C3A" />
+     </style>
+     <p>Fémur</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Times New Roman" size="20" bold="true" />
+      <color background="0xAF743A" inactive="0xAD743A" />
+     </style>
+     <p>Costillas</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="Portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="18" />
+      <color background="0xCC99FF" border="0x993300" />
+     </style>
+     <p>Bienvenidos a este repaso del sistema locomotor y órganos reproductores, disfruta los juegos.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x99FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="Captura de pantalla 2026-10-14 093626.png">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="RELACIONA IMAGEN CON IMAGEN" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Georgia" size="17" bold="true" />
+      <color background="0xCCCC00" border="0xFFFFFF" />
+     </style>
+     <p>Relaciona las imágenes de las causas con sus consecuencias.</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Georgia" size="17" bold="true" />
+      <color background="0xCCCC00" border="0xFFFFFF" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC0033" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="CAERSE DE UN LUGAR ALTO.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="GOLPEARSE LA CABEZA.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="CAERSE O GOLPEARSE.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="FUMAR.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="CONSECUENCIA FEMUR.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="DOLOR DE CABEZA.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="CONSECUENCIA RODILLA.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="DAÑO EN EL CORAZON.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ROMPECABEZAS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Microsoft YaHei" size="17" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>Une las piezas del rompecabezas correctamente y descubre las partes del sistema locomotor y nervioso.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Microsoft YaHei" size="17" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>¡Muy Bien, lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99FFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF66" border="true" />
+   </settings>
+   <cells rows="5" cols="5" border="true" image="ROMPECABEZAS.png">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="5" rows="5" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="SOPA DE LETRAS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Segoe UI Historic" size="17" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>Encuentra en la sopa de letras las palabras relacionadas con los aparatos reproductores femenino y masculino, y con el cuidado del cuerpo.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Segoe UI Historic" size="17" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFF66">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC99FF" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>**************H</row>
+     <row>**OVARIO*P*M**I</row>
+     <row>*P******E**E**G</row>
+     <row>**U****N***N*RI</row>
+     <row>S**B**E****S*EE</row>
+     <row>*A**E******T*SN</row>
+     <row>A*L**R*****R*PE</row>
+     <row>G**U**T****U*E*</row>
+     <row>I***D**A***A*T*</row>
+     <row>J*******D**C*O*</row>
+     <row>ESPERMATOZOIDE*</row>
+     <row>V**********Ó***</row>
+     <row>***********N***</row>
+     <row>*TESTÍCULOS****</row>
+     <row>*******CÉRVIX**</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">OVARIO</clue>
+    <clue id="1">MENSTRUACIÓN</clue>
+    <clue id="2">SALUD</clue>
+    <clue id="3">TESTÍCULOS</clue>
+    <clue id="4">PUBERTAD</clue>
+    <clue id="5">HIGIENE</clue>
+    <clue id="6">VEJIGA</clue>
+    <clue id="7">PENE</clue>
+    <clue id="8">RESPETO</clue>
+    <clue id="9">ESPERMATOZOIDE</clue>
+    <clue id="10">CÉRVIX</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="TEXTO 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xCCCC00" />
+     </style>
+     <p>Escribe la palabra que falta en la definición.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xCCCC00" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="150" image="ÚTERO.png">
+       <style>
+        <font family="Times New Roman" size="24" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Times New Roman" bold="true" size="22" foreground="0xCC0033">El</text>
+      <text family="Times New Roman" bold="true" size="28" foreground="0xFF6666"> </text>
+      <target>útero</target>
+      <text family="Times New Roman" bold="true" size="22" foreground="0xFF9999"> </text>
+      <text family="Times New Roman" bold="true" size="22" foreground="0xCC0033">forma parte del aparato reproductor femenino</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="TEXTO 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xCC99FF" />
+     </style>
+     <p>Escribe la palabra que falta en la definición </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xCC99FF" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF9999">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="150" image="ÓVULOS.png">
+       <style>
+        <font family="Times New Roman" size="24" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Times New Roman" background="0xFFFFFF" bold="true" size="22" foreground="0xFF9999">Los ovarios producen </text>
+      <target>óvulos</target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="TEXTO 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0x009999" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0x009999" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xADD13F">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="150" image="ESPERMATOZOIDE-resized.jpg">
+       <style>
+        <font family="Times New Roman" size="24" bold="true" />
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Times New Roman" background="0xFFFFFF" bold="true" size="24" foreground="0x330099">El aparato reproductor masculino produce</text>
+      <text family="Times New Roman" background="0xFFFFFF" bold="true" size="22" foreground="0x330099"> </text>
+      <target>espermatozoides</target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="TEXTO 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xFFCC33" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xFFCC33" />
+     </style>
+     <p>Excelente</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFF99">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="500" height="300" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="150" image="UERTRA.png">
+       <style>
+        <font family="Times New Roman" size="26" bold="true" />
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Times New Roman" background="0xFFFFFF" size="22" bold="true" foreground="0xCC3300">La </text>
+      <target>uretra</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="22" bold="true" foreground="0xCC3300"> permite la salida de la orina</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="TEXTO 5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="22" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>Excelente</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCC99FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="150" image="APARATOS REPRODUCTORES-resized.jpg">
+       <style>
+        <font family="Times New Roman" size="26" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Times New Roman" background="0xFFFFFF" size="22" bold="true" foreground="0x660066">Durante la </text>
+      <target>pubertad</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="22" bold="true" foreground="0x660066">, los aparatos reproductores presentan cambios</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="APARATOS REPRODUCTORES-resized.jpg" file="aparatos_reproductores-resized.jpg" />
+  <media name="ESPERMATOZOIDE-resized.jpg" file="espermatozoide-resized.jpg" />
+  <media name="CAERSE DE UN LUGAR ALTO.png" file="caerse_de_un_lugar_alto.png" />
+  <media name="CAERSE O GOLPEARSE.png" file="caerse_o_golpearse.png" />
+  <media name="Captura de pantalla 2026-10-14 093626.png" file="captura_de_pantalla_2026-10-14_093626.png" />
+  <media name="CONSECUENCIA FEMUR.png" file="consecuencia_femur.png" />
+  <media name="CONSECUENCIA RODILLA.png" file="consecuencia_rodilla.png" />
+  <media name="COSTILLAS.png" file="costillas.png" />
+  <media name="CRANEO.png" file="craneo.png" />
+  <media name="DAÑO EN EL CORAZON.png" file="dano_en_el_corazon.png" />
+  <media name="DOLOR DE CABEZA.png" file="dolor_de_cabeza.png" />
+  <media name="FEMUR.png" file="femur.png" />
+  <media name="FUMAR.png" file="fumar.png" />
+  <media name="GOLPEARSE LA CABEZA.png" file="golpearse_la_cabeza.png" />
+  <media name="PELVIS.png" file="pelvis.png" />
+  <media name="ROMPECABEZAS.png" file="rompecabezas.png" />
+  <media name="UERTRA.png" file="uertra.png" />
+  <media name="ÓVULOS.png" file="ovulos.png" />
+  <media name="ÚTERO.png" file="utero.png" />
+ </mediaBag>
+</JClicProject>
+
